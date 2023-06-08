@@ -2,9 +2,6 @@ html {
     box-sizing:border-box;
 }
 
-body {
-    background: linear-gradient(#780206, #061161);
-}
 *, *::before, *::after {
     box-sizing: inherit;
 }
@@ -17,7 +14,7 @@ h1, h2, h3, h4, p {
     margin: 0;
 }
 .navbar {
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
 }
@@ -31,7 +28,7 @@ h1, h2, h3, h4, p {
     display: flex;
     justify-content: space-around;
     overflow: hidden;
-    background-color: #02f8cb;
+    background-color: #008080;
 }
 
 .container-header a {
@@ -41,17 +38,16 @@ h1, h2, h3, h4, p {
 }
 
 .container-header a:hover {
-    background: #1a8846;
+    background: #00d1c6;
 }
 
 .main-info-1 {
     display: block;
-    padding-top: 47px;
+    background-color: #00d1c6;
 }
 
 .main-info {
     display: none;
-    padding-top: 47px;
 }
 
 button {
@@ -89,4 +85,20 @@ input {
     outline: none;
     background: transparent;
     padding: 10px;
+    color: #000
+}
+
+.button-task {
+    border: none;
+    outline: none;
+    padding: 0px 17px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+input::placeholder {
+    color: red
 }
