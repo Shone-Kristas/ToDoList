@@ -1,0 +1,92 @@
+html {
+    box-sizing:border-box;
+}
+
+body {
+    background: linear-gradient(#780206, #061161);
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, p {
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: #02f8cb;
+}
+
+.container-header a {
+    float: left;
+    display: block;
+    text-decoration: none;
+}
+
+.container-header a:hover {
+    background: #1a8846;
+}
+
+.main-info-1 {
+    display: block;
+    padding-top: 47px;
+}
+
+.main-info {
+    display: none;
+    padding-top: 47px;
+}
+
+button {
+    background: none;
+    width: 90px;
+    height: 47px;
+    border: none;
+    cursor: pointer;
+}
+
+.general-menu {
+    padding: 20px 20px;
+}
+
+.container-all-task {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto
+}
+
+.container-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
